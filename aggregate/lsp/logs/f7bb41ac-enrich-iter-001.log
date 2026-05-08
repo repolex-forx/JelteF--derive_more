@@ -1,0 +1,45 @@
+[2026-05-08T04:42:36Z] === ENRICH ITERATION 1 START | repo=JelteF/derive_more sha=f7bb41ac ===
+[2026-05-08T04:42:36Z] [iter=1] PHASE START: enrich repo=JelteF/derive_more sha=f7bb41ac runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f7bb41ac-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f7bb41ac054c060caaf5ff3212e74e42794cb4b4.nq.gz
+[2026-05-08T04:42:46Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-05-08T04:42:54Z] [iter=1] AST store loaded triples=1177276 load_secs=8 mem_mb=876 MB
+[2026-05-08T04:42:54Z] [iter=1] Step 2: Finding LSP targets mem_mb=876 MB
+[2026-05-08T04:42:56Z] [iter=1] LSP targets found call_sites=7825 imports=388 extends=0 implements=202 secs=2
+[2026-05-08T04:42:58Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=876 MB
+[2026-05-08T04:43:05Z] [iter=1] Position index built positions=82978 nodes_with_types=94602 secs=7 mem_mb=876 MB
+[2026-05-08T04:43:05Z] [iter=1] Step 3: Starting LSP resolution mem_mb=876 MB already_completed_types=[] already_completed_files=0
+[2026-05-08T04:43:05Z] [iter=1] Resolving target type target_type=call_site count=7825
+[2026-05-08T04:43:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=0 resolved=0 errors=0 current=tests/debug.rs
+[2026-05-08T04:45:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.4 files_done=2 resolved=491 errors=180 current=impl/src/utils.rs
+[2026-05-08T04:48:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.9 files_done=3 resolved=958 errors=616 current=tests/error/derives_for_structs_with_source.rs
+[2026-05-08T04:49:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=5 resolved=1110 errors=725 current=tests/display.rs
+[2026-05-08T04:50:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=7 resolved=1589 errors=820 current=impl/src/into.rs
+[2026-05-08T04:51:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=8 resolved=1645 errors=986 current=impl/src/from.rs
+[2026-05-08T04:52:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.4 files_done=9 resolved=1710 errors=1060 current=impl/src/is_variant.rs
+[2026-05-08T04:53:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.7 files_done=11 resolved=1916 errors=1222 current=tests/is_variant.rs
+[2026-05-08T04:54:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.6 files_done=14 resolved=2061 errors=1333 current=impl/src/parsing.rs
+[2026-05-08T04:54:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.3 files_done=15 resolved=2077 errors=1417 current=impl/src/error.rs
+[2026-05-08T04:55:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.0 files_done=16 resolved=2160 errors=1512 current=impl/src/cmp/partial_eq.rs
+[2026-05-08T04:56:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.5 files_done=19 resolved=2260 errors=1575 current=impl/src/try_unwrap.rs
+[2026-05-08T04:56:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.1 files_done=23 resolved=2383 errors=1643 current=impl/src/fmt/display.rs
+[2026-05-08T04:57:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.8 files_done=24 resolved=2474 errors=1728 current=tests/error/nightly/derives_for_generic_structs_with_backtrace.rs
+[2026-05-08T04:58:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.2 files_done=26 resolved=2536 errors=1913 current=impl/src/deref.rs
+[2026-05-08T04:59:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.9 files_done=30 resolved=2745 errors=1995 current=tests/partial_eq.rs
+[2026-05-08T05:00:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.0 files_done=31 resolved=2888 errors=2130 current=impl/src/ops/mod.rs
+[2026-05-08T05:01:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.5 files_done=34 resolved=3012 errors=2198 current=src/fmt.rs
+[2026-05-08T05:02:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.1 files_done=38 resolved=3281 errors=2400 current=src/try_unwrap.rs
+[2026-05-08T05:03:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.9 files_done=42 resolved=3455 errors=2497 current=tests/into.rs
+[2026-05-08T05:04:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.5 files_done=44 resolved=3616 errors=2580 current=tests/mul.rs
+[2026-05-08T05:04:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.1 files_done=47 resolved=3691 errors=2646 current=tests/error/nightly/derives_for_enums_with_backtrace.rs
+[2026-05-08T05:05:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.6 files_done=52 resolved=3781 errors=2715 current=impl/src/ops/mul.rs
+[2026-05-08T05:06:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.5 files_done=54 resolved=3845 errors=2828 current=tests/boats_display_derive.rs
+[2026-05-08T05:06:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.0 files_done=60 resolved=3902 errors=2893 current=tests/compile_fail/as_mut/renamed_generic.rs
+[2026-05-08T05:07:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.5 files_done=77 resolved=3976 errors=2958 current=tests/deref_mut.rs
+[2026-05-08T05:07:19Z] [iter=1] Target type resolved target_type=call_site resolved=3996 errors=2976 secs=1454 mem_mb=876 MB
+[2026-05-08T05:07:19Z] [iter=1] Resolving target type target_type=import_statement count=388
+[2026-05-08T05:07:35Z] [iter=1] Target type resolved target_type=import_statement resolved=385 errors=0 secs=16 mem_mb=876 MB
+[2026-05-08T05:07:35Z] [iter=1] Resolving target type target_type=implements_clause count=202
+[2026-05-08T05:07:42Z] [iter=1] HEARTBEAT target_type=implements_clause elapsed_min=25.1 files_done=1 resolved=25 errors=0 current=tests/into.rs
+[2026-05-08T05:07:48Z] [iter=1] Target type resolved target_type=implements_clause resolved=200 errors=0 secs=13 mem_mb=876 MB
+[2026-05-08T05:08:06Z] [iter=1] Step 5: Writing final enrichment file triples=77241
+[2026-05-08T05:08:08Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/f7bb41ac054c060caaf5ff3212e74e42794cb4b4.nq.gz size_kb=1469
+[2026-05-08T05:08:08Z] [iter=1] PHASE END: enrich elapsed_s=1532 elapsed_min=25.5 total_triples=77241
