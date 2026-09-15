@@ -51,7 +51,9 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   │   ├── a381551f6e5e281db34b2dbe3c7257ea0e9fd352.nq.gz
 │   │   └── f7bb41ac054c060caaf5ff3212e74e42794cb4b4.nq.gz
 │   └── repolex
-│       └── a381551f6e5e281db34b2dbe3c7257ea0e9fd352
+│       ├── a381551f6e5e281db34b2dbe3c7257ea0e9fd352
+│       │   └── chunk-001.nq.gz
+│       └── f7bb41ac054c060caaf5ff3212e74e42794cb4b4
 │           └── chunk-001.nq.gz
 └── blob
     ├── 0031df96f85a52735eaed97f661c0cf83fe49456.nq.gz
@@ -244,10 +246,9 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── 4879585171cd197ba08c1e0701e963c7d7a273c1.nq.gz
     ├── 487bf734b4950d3ef847db3a306be6b025765f20.nq.gz
     ├── 4885ace22b0e721c3442574f807f892da374b9a5.nq.gz
-    ├── 4899ae56453adab7c6473121fff49bd5ce934666.nq.gz
-    └── 48af5a46a9ff09176ee30c4b1768d1a5f1dc82b1.nq.gz
+    └── 4899ae56453adab7c6473121fff49bd5ce934666.nq.gz
 
-11 directories, 200 files
+12 directories, 200 files
 ```
 
 | Directory | What it contains |
@@ -267,4 +268,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [JelteF/derive_more](https://github.com/JelteF/derive_more)
 
 ---
-*Parsed on 2026-05-10 by [repolex](https://repolex.ai)*
+*Parsed on 2026-09-15 by [repolex](https://repolex.ai)*
